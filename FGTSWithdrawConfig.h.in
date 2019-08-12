@@ -1,0 +1,2 @@
+#define FGTSWithdraw_VERSION_MAJOR @FGTSWithdraw_VERSION_MAJOR@
+#define FGTSWithdraw_VERSION_MINOR @FGTSWithdraw_VERSION_MINOR@
