@@ -26,8 +26,8 @@ endmacro (do_test)
 
 # does the application run
 add_test (FGTSWithdrawRun FGTSWithdraw 100)
-do_test(14000 "range 5")
 do_test(500.00 "range 1")
+do_test(14000 "range 5")
 do_test(1000.00 "range 2")
 do_test(5000.00 "range 3")
 do_test(10000.00 "range 4")
@@ -36,5 +36,5 @@ do_test(20000.00 "range 6")
 do_test(20000.01 "range 7")
 
 ## does it the first range
-#add_test (FGTSWithdrawRange1 FGTSWithdraw 500.00)
-#set_tests_properties (FGTSWithdrawRange1 PROPERTIES PASS_REGULAR_EXPRESSION "range 1")
+#add_test (FGTSWithdrawRange500 FGTSWithdraw 500.00)
+#set_tests_properties (FGTSWithdrawRange500 PROPERTIES PASS_REGULAR_EXPRESSION "range 1")
